@@ -8,7 +8,7 @@
 .template{width:1000px; margin:0 auto;}
 .clear{overflow:hidden;}
 
-/* navbar styling */
+/* navbar section */
 .navbar{
     position: fixed;
     width: 100%;
@@ -121,7 +121,7 @@
 }
 
 .right button{
-    text-decoration: none;
+    
     padding: 20px;
     margin-left: 134px;
     background: #191238;
@@ -138,52 +138,50 @@
     color: #F87E61;
 }
 
-/* navbar styling */
-.navbar{
-    position: fixed;
-    width: 100%;
-     padding: 30px 0; 
-    font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease; 
+/* about section */
+.aboutsection{
+    background: url("images/about us.jpg") no-repeat;
+ min-height: 600px;
+ margin-bottom: 50px;
+ margin-top: 100px;
 }
-.navbar.sticky{
-    padding: 15px 0;
+.aboutsection h2 { 
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 512px;
+    font-size: 45px;
+    float: left;
+    text-align: left;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+.aboutsection h3 {
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-top: 90px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutsection button{
+    margin-top: 50px;
+    padding:  20px;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: bolder;
+}
+.aboutsection button:hover{
     background: #fff;
-    
+    color: #F87E61;
 }
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.v1{
+    border-left: 1px solid #fff;
+    height: 50px;
+  margin-left: 65px;
+  margin-top: 10px;
 }
-.navbar .logo a{ 
-    color: #fff; 
-    font-size: 35px;
-    font-weight: 600;
-} 
-
-.navbar.sticky .logo a {
-    color: #F87B5D;
-}
- .navbar .menu li{
-    list-style: none;
-    display: inline-block;
-}
-.navbar .menu li a{
-    
-    color: #fff; 
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-     transition: color 0.3s ease;
-}
-.navbar .menu li a:hover{
-    color: #000;
-}
-.navbar.sticky .menu li a{
-    color: #F87B5D;
-}
-.navbar.sticky .menu li a:hover{
-    color: #F87B5D;
-}
-
