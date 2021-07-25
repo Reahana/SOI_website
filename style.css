@@ -1,11 +1,73 @@
-*{margin: 0;padding: 0; 
-    text-decoration: none;}
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{margin: 0;
+    padding: 0; 
+    text-decoration: none;
+} 
 .template{width:1000px; margin:0 auto;}
 .clear{overflow:hidden;}
 
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+     padding: 30px 0; 
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease; 
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: #fff;
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{ 
+    color: #fff; 
+    font-size: 35px;
+    font-weight: 600;
+} 
+
+.navbar.sticky .logo a {
+    color: #F87B5D;
+}
+ .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    
+    color: #fff; 
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+     transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #000;
+}
+.navbar.sticky .menu li a{
+    color: #F87B5D;
+}
+.navbar.sticky .menu li a:hover{
+    color: #F87B5D;
+}
+
+
+.max-width{
+    max-width: 1000px;
+    padding: 0 80px;
+    margin: auto;
+}
+
 /* header footer */
-.header h1, .footer h2{
+ .footer h2{
   text-align: center;
+  background: #F87B5D;;
 }
 .header img{
   width:1000px;
@@ -13,7 +75,7 @@
 
 /* <!-- Working Section  --> */
 .mainsection{
-   margin-top: 50px;
+   margin-top: 100px;
     background: url("images/bg3.jpg") no-repeat;
     margin-bottom: 50px;
 }
@@ -74,5 +136,54 @@
 .right button:hover{
     background: #fff;
     color: #F87E61;
+}
+
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+     padding: 30px 0; 
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease; 
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: #fff;
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{ 
+    color: #fff; 
+    font-size: 35px;
+    font-weight: 600;
+} 
+
+.navbar.sticky .logo a {
+    color: #F87B5D;
+}
+ .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    
+    color: #fff; 
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+     transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #000;
+}
+.navbar.sticky .menu li a{
+    color: #F87B5D;
+}
+.navbar.sticky .menu li a:hover{
+    color: #F87B5D;
 }
 
