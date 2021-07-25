@@ -1,10 +1,8 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
-        // sticky navbar on scroll script
-        if(this.scrollY > 20){
-            $('.navbar').addClass("sticky");
-        }else{
-            $('.navbar').removeClass("sticky");
-        }
-    });
-});
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop >20) {
+    document.getElementsById("mytext").className = "slideUp";
+  
+  }
+}
