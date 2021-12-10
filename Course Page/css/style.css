@@ -206,70 +206,91 @@ header{
 }
 
 
-/* Footer section */
-footer{
- background-color: #373839;
-}
-.top-footer{
-    
-    color: #fff;
-    padding: 180px 0 76px;
-}
-.top-footer img{
-    margin: 0 auto;
-    display: block;
-}
-.top-footer ul{
-    
-   padding: 0;
-   margin: 0;
-}
-.top-footer ul li{
-    list-style: none;
-    
-}
-.top-footer h3{
-    padding: 10px 13px;
-    text-shadow: #736EB9 1px 4px 20px;
-    
-}
-.social li{
-    display: inline-block;
-    padding: 18px 30px;
-}
-.social li a {
-    text-decoration: none;
-}
-.social li a i{
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-    transition: 0.4s ease-in-out;
-}
-.social li a i:hover{
-    background-color: #8682bb;
-    width:45px;
-    height: 45px;
-    border-radius: 50%;
-    line-height: 45px;
-    text-align: center;
-}
-.contact li{
-    margin-left: 10px;
-    padding: 0 20px;
-}
-.contact li i{
-    padding: 4px 10px;
-}
 
-.subfoot{
-    margin: 20px auto 0;
-    width: 50%;  
+
+ /* Contact */
+ .cntc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+      url(../img/bulb4.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  .contact {
+    position: relative;
+    z-index: 0;
     text-align: center;
-    font-size:15px;
-    color: rgb(206, 206, 206);
-    letter-spacing: 2px;
-    font-weight: bold;
-    font-family: signika;
-    
-}
+    color: white;
+  }
+  .contactus {
+    font-family: "Open Sans", Sans-serif;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    line-height: 1.6;
+    font-weight: 700;
+  }
+  .getintouch {
+    font-size: 25px;
+    font-family: "Open Sans", Sans-serif;
+    color: white;
+  }
+  .contact .right {
+    text-align: center;
+  }
+  .contact .left {
+    text-align: center;
+  }
+  .cntc .address a {
+    color: white;
+    opacity: 0.8;
+  }
+  .cntc .address a:hover {
+    color: #14b8c0;
+    opacity: 1;
+  }
+  .cntc .site_map a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.9rem;
+    opacity: 0.8;
+  }
+  .cntc .site_map a:hover {
+    color: #14b8c0;
+    opacity: 1;
+  }
+  .contact .icons a {
+    padding: 0px 20px 0px 20px;
+    color: white;
+    opacity: 0.4;
+    font-size: 18px;
+  }
+  .contact .icons a:hover {
+    color: #14b8c0;
+    opacity: 1;
+  }
+  .scroll-top {
+    width: 38px;
+    height: 41px;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    display: none;
+    border-color: #292929;
+    background-color: transparent;
+  }
+  .scroll-top i {
+    display: inline-block;
+    color: #292929;
+  }
+  .scroll-top:hover {
+    color: black;
+    background-color: white;
+    border: 0px;
+  }
+  .contact .footer {
+    font-size: 12px;
+    opacity: 0.4;
+  }
+  
